@@ -1,0 +1,7 @@
+Website dạng blog giới thiệu tour du lịch và hotel, resolt ...
+Chức năng: Đăng ký, đăng nhập 
+phân quyền: Admin quản lý toàn bộ, khi người dùng đăng ký mới sẽ có tài khoản Author chỉ được CRUD các bài viết được phân quyền sẵn
+bộ lọc, tìm kiếm heo từ khóa, gửi mail ...
+các chức năng khác và giao diện đang cập nhật
+
++ Hướng dẫn cài đặt: clone source về sau đó tạo mới database và nhập file dulich-ks.sql kia để chạy project

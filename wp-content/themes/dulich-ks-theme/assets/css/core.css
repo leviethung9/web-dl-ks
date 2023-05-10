@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto:wght@300;400&display=swap');
+/* ma mau */
+:root{
+    --green-color1:#00c277;
+    --white-color:#fff;
+    --black-color1:#333;
+    --black-color2:#232323;
+    --black-color3:#111;
+    --gray-color1:#f7f8fa;
+    --gray-color2:#d7d7d7;
+    --red--color1:#f6414d;
+    --color-yellow1:#ffb21d;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.bg-green1{
+    background-color: var(--green-color1);
+}
+.text-white{
+    color: var(--white-color);
+}
+.color-black2{
+    color: var(--black-color2);
+}
+.color-yellow1{
+    color: var(--color-yellow1);
+}
+.bg-gray{
+    background-color:var(--gray-color1) ;
+}
+.color-red1{
+    color: var(--red--color1);
+}
+/* custom class bs5 */
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.w-70{
+    width: 70%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.text-black{
+    color: var(--black-color3);
+}
+#back-to-top {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+#back-to-top:hover {
+    background-color: #555;
+}
